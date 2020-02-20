@@ -29,47 +29,46 @@ nav a:hover{
 	border-radius: 15px;
 }
 
-section.back{
+section.banner-section {
 	background-image: url(../images/back.jpeg);
 	padding: 216px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
-
 }
-section.back div h1 {
-	border: 2px solid #white;
-	padding-bottom: 100px;
+
+section.banner-section h1 {
 	text-align: center;
+	font-size: 110px;
+	text-transform: uppercase;
+	border: 2px solid white;
 	color: white;
 }
 
-.banner-section {
-	position: absolute;
-	top: 50%;
-	left: 50%
-	transform: translate(-50%, -50%);
-	display: flex;
-	width: 800px;
-	padding-top: 100px;
-	padding-left: 60px;
-	color: white;
+section.about-section {
+	padding: 7px 0 200px;
+	background: #ab7c8014
 }
-.banner-section .image {
-	width: 150px;
-	flex: 0 0 150px;
+h2.title {
+	text-align: center;
+	font-size: 41px;
+	text-transform: uppercase;
 }
-
-.banner-section .image img{
-	max-width: 900%;
-}
-
-.banner-section .content div h2 {
-	text-align: left;
-	font-size: 15px;
-	font-family: 'Open Sans Condensed', sans-serif;
+.about-div-left {
+	width: 57%;
+	padding-left: 81px;
 	display: inline-block;
-	margin: 0;
-	padding-left: 0;
+}
+.about-div-right {
+	width: 35%;
+    float: right;
+    clear: both;
+ }
 
+.about-div-right img {
+    width: 400px;
+}
+
+a.button {
+	text-decoration: none;
 }
