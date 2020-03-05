@@ -71,4 +71,118 @@ h2.title {
 
 a.button {
 	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 20px;
+	float: right;
+	padding: 13px 19px;
+	border: 1px solid black;
+	color: black;
+	background: gray;
+}
+
+/* Service section */
+section.service-section {
+    padding: 56px 0 42px;
+}
+.service-section-div {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    font-size: 19px;
+    line-height: 29px;
+}
+.service-section-div i.service-icon {
+    font-size: 127px;
+}
+i.fas.fa-rocket {
+    color: darkblue;
+}
+i.fas.fa-satellite-dish {
+    color: black;
+}
+i.fas.fa-meteor {
+    color: maroon;
+}
+a.service-button {
+    text-decoration: none;
+    color: blue;
+}
+a.service-button:hover {
+    color: blue;
+}
+i.fas.fa-arrow-right {
+    margin-top: 6px;
+    position: absolute;
+    margin-left: 5px;
+    color: blue;
+}
+
+
+section.cta-section {
+	border-top: 2px solid black;
+	padding: 120px 0;
+	text-align: center;
+	font-size: 40px;
+	background: #233950;
+	color: #c3c4d4;
+}
+
+.cta-section button {
+	background: #2c4861;
+    border: 1px solid;
+    padding: 15px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 13px;
+    color: #b7bfbe;
+}
+
+section.footer-section {
+	border-top: 2px solid #312c2c;
+    background: #586069;
+    color: #f7f8fd;
+    display: inline-block;
+    width: 33px;
+
+}
+
+.footer-section h5 {
+    padding-bottom: 0px;
+    margin: 17px;
+    width: 33%;
+    display: inline-block;
+    line-height: 29px;
+}
+
+}
+
+.footer-section ul {
+
+    display: inline-block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+}
+
+.footer-section2 {
+	border-top: 2px solid #312c2c;
+    background: #586069;
+    color: #f7f8fd;
+    display: inline-block;
+    width: 33px;
+
+	
+}
+.footer-section3 {
+	border-top: 2px solid #312c2c;
+    background: #586069;
+    color: #f7f8fd;
+    display: inline-block;
+    width: 33px;
+
+	
 }
